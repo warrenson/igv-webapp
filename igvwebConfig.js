@@ -18,7 +18,8 @@ var igvwebConfig =
                 queryParametersSupported: true,
                 showChromosomeWidget: true,
                 genome: "hg19",
-                apiKey: "AIzaSyDUUAUFpQEN4mumeMNIRWXSiTh5cPtUAD0"
+
+                apiKey: "API_KEY"
             },
 
         // Supply a Google client id to enable the Google file picker in the load menus.  This is optional
@@ -29,7 +30,8 @@ var igvwebConfig =
         urlShortener:
             {
                 provider: "bitly",
-                apiKey: "76670dc60b519eaf9be4fc1c227b4f3e3b3a5e26"
+
+                apiKey: "BITLY_TOKEN"
             }
 
         // urlShortener: {
