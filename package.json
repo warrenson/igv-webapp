@@ -6,7 +6,7 @@
   "author": "Douglass Turner and Jim Robinson",
   "license": "MIT",
   "scripts": {
-    "start": "http-server -a localhost dist",
+    "start": "http-server dist",
     "build": "node scripts/clean.js && rollup -c && node scripts/injectRuntime.js && node scripts/copyArtifacts.js"
   },
   "repository": {
